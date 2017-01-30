@@ -10,6 +10,8 @@ asecret = 'N4sSNMBw0TLG8yEwcGRAL15bSSeK1oO8SBZG63B8WiE9s'
 
 """ MIDI NOTES ASSIGN nos harps or flats
 
+Possibly use __init___ for these
+
 c = E4 = 64
 d = F4 = 65 
 e = G4 = 67
