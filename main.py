@@ -25,8 +25,8 @@ twitterStream.filter(track=["seat"])
 >>>>>PHASES<<<<<<<<
 Phase 1: Streaming and Sortinng
 		1. Streaming
-		2. Parsing <-- WE ARE HERE (need to remove '\\' from array)
-		3. Assigning it to an array
+		2. Parsing 
+		3. Assigning it to an array <-- WE ARE HERE (need to remove '\\' from array)
 		4. Creating prompt for keyword 
 	Phase 2: Conversion
 		1. Decide on and assign characters in the array to MIDI values
