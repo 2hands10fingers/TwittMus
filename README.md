@@ -15,7 +15,7 @@ TwittMus uses the Tweepy library to execute to scan for and stream tweets to the
 
 <strong>3. Obtaining Twitter Access</strong>
 
-API authentication is required. Twitter doesn't like anonymous people taking their stuff, so you will need to get special credentials by creating your own app using a Twitter acccount you have accces to. This allow you to fill in the values assigned to the variables <i>ckey</i>, <i>csecret</i>, <i>atoken</i>, and <i>asecret</i> to the file. You can create an using your Twitter account href="https://apps.twitter.com/">here</a>.
+API authentication is required. Twitter doesn't like anonymous people taking their stuff, so you will need to get special credentials by creating your own app using a Twitter acccount you have accces to. This allow you to fill in the values assigned to the variables <i>ckey</i>, <i>csecret</i>, <i>atoken</i>, and <i>asecret</i> to the file. You can create an using your Twitter account <a href="https://apps.twitter.com/">here</a>.
 
 <strong>3. Opening up a port to receive MIDI</strong>
 
