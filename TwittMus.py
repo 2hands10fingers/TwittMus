@@ -6,16 +6,13 @@ import random
 import rtmidi_python as rtmidi
 import time
 
-
-ckey = 'Cr6ZcBdW4MC8yo6foRAMPp09h'
-csecret = 'cQizXmeD4wv4A5Ek2F8LNQ2sQoVfYmDJhRTEqBKD7EdNTKj7b2'
-atoken = '825875016608841730-TKbKCdp0Z55L99nLvw9gRjfz33nP8GG'
-asecret = '9I5EeD1v8Dw9lxbwpuf1FI2wpRIQospygJD3A3Z0bNKAY'
-
+ckey = ''
+csecret = ''
+atoken = ''
+asecret = ''
 
 midi_out = rtmidi.MidiOut()
 midi_out.open_port(1)
-
 note_map = {
 	'A': 4,
 	'B': 5,
@@ -92,9 +89,7 @@ note_map = {
 	'?': 127,
 }
 
-#search = raw_input("What do you want to search?")
-
-
+#FUNCTION JUNCTION
 def replace_chars(character):
 	return note_map.get(character, 0)
 
@@ -123,8 +118,7 @@ class Listener(StreamListener):
 			print midioff
 			time.sleep(0.2)
 
-
 auth = OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
 twitterStream = Stream(auth, Listener())
-twitterStream.filter(track=["Zelda"])
+twitterStream.filter(track=["your keyword goes here"])
