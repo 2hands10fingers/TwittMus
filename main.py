@@ -73,7 +73,7 @@ note_map = {
 	'.': 95,
 	'!': 96,
 	'@': 36,
-	'#': 100,
+	'#': 40,
 	'$': 101,
 	'%': 103,
 	'^': 105,
@@ -92,6 +92,9 @@ note_map = {
 	'?': 127,
 }
 
+#search = raw_input("What do you want to search?")
+
+
 def replace_chars(character):
 	return note_map.get(character, 0)
 
@@ -102,7 +105,6 @@ def translate_to_midi(string):
 	return output
 
 class Listener(StreamListener):
-
 	def on_data(self, data):
 		tweet = data.split(',"text":"')[1].split('","source')[0].split('","display_text_range')[0].encode("utf-8")
 		print tweet
@@ -121,7 +123,8 @@ class Listener(StreamListener):
 			print midioff
 			time.sleep(0.2)
 
+
 auth = OAuthHandler(ckey, csecret)
 auth.set_access_token(atoken, asecret)
 twitterStream = Stream(auth, Listener())
-twitterStream.filter(track=["keyword"])
+twitterStream.filter(track=["Zelda"])
