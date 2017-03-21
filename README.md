@@ -19,9 +19,13 @@ API authentication is required. Twitter doesn't like anonymous people taking the
 
 <strong>3. Opening up a port to receive MIDI</strong>
 
-There are number of ways to accomplish this. Refer to Ableton's guide for Mac and Windows<a href="https://help.ableton.com/hc/en-us/articles/209774225-Using-virtual-MIDI-buses-in-Live">here</a>
+There are number of ways to accomplish this. Refer to Ableton's guide for Mac and Windows <a href="https://help.ableton.com/hc/en-us/articles/209774225-Using-virtual-MIDI-buses-in-Live">here</a>
+
+<strong>4. Rt-Midi</strong>
+
+TwittMus requires one more module to send MIDI information to the desired port. You can find and install it <a href="https://github.com/superquadratic/rtmidi-python.">here.</a>
 
 # Notes
 
-TwittMus is programmatically set to play the notes assigned to each character in a one-by-one fashion. See the code's comments to learn where you can edit parameters to make your own use of how MIDI information is set.
+TwittMus is programmatically set to play the notes assigned to each character in a one-by-one fashion. See the code's comments to learn where you can edit parameters to create your own parameters.
 
