@@ -1,6 +1,6 @@
 # TwittMus - Tweet to Midi Conversion
 
-Track any word or hashtag into Twitter and have each tweet converted into MIDI, or musical information, that is sent to a port on your computer which can then be read by any program reading MIDI information that port number.
+Track any word or hashtag into Twitter and have each tweet converted into MIDI, or musical information, that is sent to a port on your computer which can then be read by any program reading MIDI information via that port number.
 
 
 # Installation
