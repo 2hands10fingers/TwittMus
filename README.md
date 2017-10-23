@@ -21,9 +21,9 @@ API authentication is required. Twitter doesn't like anonymous people taking the
 
 There are number of ways to accomplish this. Refer to Ableton's guide for Mac and Windows <a href="https://help.ableton.com/hc/en-us/articles/209774225-Using-virtual-MIDI-buses-in-Live">here</a>
 
-<strong>4. Rt-Midi</strong>
+<strong>4. RtMidi</strong>
 
-TwittMus requires one more module to send MIDI information to the desired port. You can find and install it <a href="https://github.com/superquadratic/rtmidi-python.">here.</a>
+TwittMus requires one more module to send MIDI information to the desired port. You can find and install it <a href="http://trac.chrisarndt.de/code/wiki/python-rtmidi">here.</a>
 
 # Notes
 
